@@ -1,0 +1,18 @@
+{
+    "GAN_loss": "vanilla",
+    "batch_print_freq": 4,
+    "batch_size": 25,
+    "dataset_dir": "./datasets/split_dataset",
+    "decay_epoch": 100,
+    "init_mode": "normal",
+    "lambda_gp": 10.0,
+    "lambda_l1": 50.0,
+    "lr": 0.0002,
+    "model": "customB",
+    "num_disc_iterations": 5,
+    "num_epochs": 200,
+    "num_workers": 2,
+    "save_loc": "./trained_models/customB",
+    "use_batch_norm": false,
+    "use_gpu": true
+}
